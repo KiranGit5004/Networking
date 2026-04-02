@@ -1,10 +1,7 @@
-﻿# OSI Model (Detailed)
+﻿# OSI Model
 
 ## Definition
 OSI (Open Systems Interconnection) model is a 7-layer framework used to understand how data is transmitted over a network.
-
-
-
 
 ## Layers
 
@@ -52,20 +49,26 @@ Reverse process at receiver
 
 ### Questions
 ❓ Explain OSI model with real example
+
 Answer:
 The OSI model explains how data travels through 7 layers. For example, when accessing a website, the request starts at the Application layer, gets encrypted at Presentation, managed at Session, transferred via TCP at Transport, routed using IP at Network, framed with MAC at Data Link, and transmitted as bits at Physical layer.
 
 ❓ What is difference between Layer 2 and Layer 3?
+
 Answer: Layer 2 (Data Link) uses MAC addresses for communication within a local network, while Layer 3 (Network) uses IP addresses for communication between different networks.
 
 ❓ Why do we need OSI model?
+
 Answer: To standardize communication and simplify troubleshooting by dividing networking into layers.
 
 ❓ What happens if Transport layer fails?
+
 Answer: Data delivery becomes unreliable—packets may be lost, duplicated, or out of order.
 
 ❓ Which layer does ping work on?
+
 Answer: Network Layer (uses ICMP)
 
 ❓ Which layer does ARP work on?
+
 Answer: Between Layer 2 and Layer 3 (Data Link + Network)
