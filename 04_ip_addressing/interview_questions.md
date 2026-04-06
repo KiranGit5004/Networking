@@ -26,20 +26,3 @@ Answer: It divides IP into network and host parts.
 
 8. Static vs Dynamic IP?
 Answer: Static is fixed, Dynamic is assigned automatically.
-
-
-## 1. What is subnetting?
-Dividing a network into smaller networks.
-
-## 2. What is CIDR?
-Classless Inter-Domain Routing (e.g., /24)
-
-## 3. How many hosts in /26?
-2^(32-26) - 2 = 62
-
-## 4. What is broadcast address?
-Last IP of a subnet used to communicate with all devices.
-
-## 5. Difference between CIDR and Subnet Mask?
-CIDR → /24  
-Subnet Mask → 255.255.255.0
