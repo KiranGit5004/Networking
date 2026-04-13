@@ -250,15 +250,3 @@ Rogue DHCP server
 “This indicates a rogue DHCP server. I would identify and remove it.”
 
 ---
-
-#  Key Takeaway
-
-Stop giving generic answers like:
-❌ “Network issue”
-
-Start thinking like:
-✅ Identify layer
-✅ Identify service
-✅ Identify root cause
-
-That’s what separates average candidates from hires.
