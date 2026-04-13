@@ -18,7 +18,6 @@ NAT stands for Network Address Translation. it is used to translates private IP 
 
 ### PAT (most used)
     PAT allows multiple devices to share a single public ip using different port numbers.
-    ![image](../images/pat.jpg)
 
 #### Example
 You open a website
